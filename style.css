@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: currentColor;
+  background-color: turquoise;
   color: turquoise;
   text-align:center;
   animation: bg infinite 30s;
@@ -41,9 +41,9 @@ h2 {
 }
 
 @keyframes bg {
-  0% { color: gold; }
-  25% { color: turquoise; }
-  50% { color: salmon; }
-  75% { color: purple; }
-  100% { color: gold; }
+  0% { color: gold; background-color: gold; }
+  25% { color: turquoise; background-color: turquoise; }
+  50% { color: salmon; background-color: salmon; }
+  75% { color: purple; background-color: purple; }
+  100% { color: gold; background-color: gold; }
 }
