@@ -1,0 +1,42 @@
+* {
+  font-family: Break;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: currentColor;
+  color: turquoise;
+  text-align:center;
+  text-shadow: .1rem .1rem 0px rgba(255,255,255,.9);
+  /* animation: bg infinite 30s; */
+}
+
+h2 {
+  font-size: 9rem;
+  height: 100vh;
+  line-height: 100vh;
+    text-shadow: .2rem .2rem 0px rgba(255,255,255,.9);
+  /* -webkit-background-clip: text; */
+   /* -webkit-text-fill-color: transparent; */
+
+/* background:
+linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -15px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -15px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%); */
+/* background-size: 30px 30px; */
+/* background-color: #EC173A; */
+}
+
+@keyframes bg {
+  0% { color: gold; }
+  25% { color: turquoise; }
+  50% { color: salmon; }
+  75% { color: purple; }
+  100% { color: gold; }
+}
