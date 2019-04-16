@@ -20,6 +20,12 @@ p {
   font-size: .4rem!important;
 }
 
+.mailmunch-forms-widget-773674
+.waitlist-form {
+  min-width: 300px !important;
+  width: 50vw !important;
+}
+
 .wrapper {
   height: 100vh;
   width: 100vw;
