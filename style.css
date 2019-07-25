@@ -42,6 +42,11 @@ code {
   font-size: 1.5rem;
 }
 
+code span {
+  font-size: 1.7rem;
+  padding-right: 10px;
+}
+
 .twitter-logo,
 .youtube-logo {
   height: 40px;
