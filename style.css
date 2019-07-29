@@ -99,6 +99,7 @@ input {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
+  max-width: 100vw;
 }
 
 .buttons-wrapper a.disabled img {
@@ -122,10 +123,11 @@ input {
 }
 
 .buttons-wrapper a:first-child {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .buttons-wrapper img {
-  height: 80px;
+  width: 40vw;
+  max-width: 200px;
   object-fit: contain;
 }
