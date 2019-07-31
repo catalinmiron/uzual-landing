@@ -129,5 +129,6 @@ input {
 .buttons-wrapper img {
   width: 40vw;
   max-width: 200px;
+  height: 60px;
   object-fit: contain;
 }
