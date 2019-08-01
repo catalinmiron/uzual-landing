@@ -8,9 +8,9 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  background-color: #40E0D0;
+  background-color: #40e0d0;
   color: #ffffff;
-  text-align:center;
+  text-align: center;
   /* animation: bg infinite 30s; */
 }
 p {
@@ -71,9 +71,64 @@ input {
 }
 
 @keyframes bg {
-  0% { color: gold; background-color: gold; }
-  25% { color: turquoise; background-color: turquoise; }
-  50% { color: salmon; background-color: salmon; }
-  75% { color: purple; background-color: purple; }
-  100% { color: gold; background-color: gold; }
+  0% {
+    color: gold;
+    background-color: gold;
+  }
+  25% {
+    color: turquoise;
+    background-color: turquoise;
+  }
+  50% {
+    color: salmon;
+    background-color: salmon;
+  }
+  75% {
+    color: purple;
+    background-color: purple;
+  }
+  100% {
+    color: gold;
+    background-color: gold;
+  }
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  max-width: 100vw;
+}
+
+.buttons-wrapper a.disabled img {
+  opacity: 0.2;
+}
+
+.buttons-wrapper a.disabled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons-wrapper a.disabled:after {
+  content: 'COMING SOON';
+  color: #333;
+  position: absolute;
+  font-weight: bold;
+  font-size: 24px;
+  transform: rotate(-10deg);
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttons-wrapper a:first-child {
+  margin-right: 20px;
+}
+
+.buttons-wrapper img {
+  width: 40vw;
+  max-width: 200px;
+  height: 60px;
+  object-fit: contain;
 }
